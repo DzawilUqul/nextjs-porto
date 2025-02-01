@@ -52,7 +52,6 @@ const FixedMenu = () => {
                   listStyles='flex flex-col justify-center gap-4'
                   // linkStyles='font-primary text-4xl text-primary cursor-pointer hover:text-secondary hover:scale-125'
                   linkStyles={`font-primary text-4xl cursor-pointer tracking-[1.4px] transition-all duration-300 cursor-pointer ${!isMobile ?'hover:scale-125 hover:text-violet-400': ''}`}
-                  spy={true}
                 />
                 {/* info */}
                 <div className='hidden md:flex mx-auto'>
