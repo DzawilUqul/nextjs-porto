@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import AnimatedText from "./AnimatedText";
-import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 
 const Contact = () => {

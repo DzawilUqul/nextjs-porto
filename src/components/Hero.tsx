@@ -4,7 +4,6 @@ import { TypeAnimation } from "react-type-animation";
 import { Link as ScrollLink } from "react-scroll";
 import Image from 'next/image';
 import RotatingShape from './RotatingShape';
-import Header from './Header';
 import Stats from './Stats/Stats';
 
 const Hero = () => {

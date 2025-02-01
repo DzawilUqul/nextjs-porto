@@ -1,12 +1,8 @@
 "use client"
 import About from "@/components/About";
 import Contact from "@/components/Contact";
-import FixedMenu from "@/components/FixedMenu";
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Journey from "@/components/Journey";
-// import NoSsr from "@/components/NoSsr";
-// import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial/Testimonial";
 import Work from "@/components/Works/Works";
