@@ -3,7 +3,7 @@ import { WorkItemCategoryProps, WorkItemProps, WorksContentProps } from "@/types
 const cards: WorkItemProps = {
   href: "Contents/Work/KitchenChaos",
   category: WorkItemCategoryProps.Game,
-  img: "/assets/work/kitchenchaos/kitchen2.webp",
+  img: "/assets/work/kitchenChaos/kitchen2.webp",
   title: "Tutorial: Kitchen Chaos",
 }
 
@@ -22,8 +22,8 @@ const KitchenChaos : WorksContentProps = {
     // generate closing footer text
     text: "",
     images: [
-      "/assets/work/kitchenchaos/kitchen1.webp",
-      "/assets/work/kitchenchaos/KitchenChaos.webp",
+      "/assets/work/kitchenChaos/kitchen1.webp",
+      "/assets/work/kitchenChaos/KitchenChaos.webp",
     ],
   },
 }

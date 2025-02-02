@@ -60,8 +60,8 @@ const ugmContent: Content = {
   footer: {
     text: "This exchange program was a transformative experience that allowed me to expand my knowledge, collaborate with talented peers, and apply my skills to meaningful projects.",
     images: [
-      "/assets/journey/education/ugm1.webp",
-      "/assets/journey/education/ugm3.webp",
+      "/assets/journey/education/ugm/ugm1.webp",
+      "/assets/journey/education/ugm/ugm3.webp",
     ],
   },
 };
