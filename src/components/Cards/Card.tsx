@@ -47,7 +47,7 @@ const Card: React.FC<CardProps> = ({
                 <h3 className="flex h3 mb-2 max-md:mt-5">{title}</h3>
 
                 {/* Ensure the description remains a block element */}
-                <p className="text-justify max-w-[660px] xl:max-w-[780px] line-clamp-4">
+                <p className="text-justify max-w-[660px] xl:max-w-[780px] max-md:line-clamp-3 line-clamp-4">
                   {description}
                 </p>
 

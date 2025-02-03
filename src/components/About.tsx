@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <div className='text-center xl:text-left w-full xl:w-[50%] mx-auto xl:mx-0 flex flex-col gap-6'>
               <div>
-                <AnimatedText text='My Name is Dzawil Uqul' textStyles='h2 mb-2 mt-5'/>
+                <AnimatedText text="I'm Dzawil Uqul" textStyles='h2 mb-2 mt-5'/>
                 <p className='text-lg mb-5'>Fullstack Dev | Game Development | Artificial Intelligent | Data Science.</p>
                 <p className='max-w-[680px] mx-auto xl:mx-0 mb-10 text-justify'>
                   I am an Informatics Engineering student with a passion for technology and innovation. 
