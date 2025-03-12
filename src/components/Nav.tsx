@@ -16,9 +16,10 @@ interface NavProps {
   containerStyles?: string;
   listStyles?: string;
   linkStyles?: string;
+  closeNav?: () => void;
 }
 
-const Nav: React.FC<NavProps> = ({ containerStyles, listStyles, linkStyles }) => {
+const Nav: React.FC<NavProps> = ({ containerStyles, listStyles, linkStyles, closeNav }) => {
   const pathname = usePathname(); // Get the current path
 
   return (
@@ -34,12 +35,13 @@ const Nav: React.FC<NavProps> = ({ containerStyles, listStyles, linkStyles }) =>
                 duration={1000}
                 offset={-80} // Adjust based on your navbar height
                 className={linkStyles}
+                onClick={closeNav}
               >
                 {link.name}
               </ScrollLink>
             ) : (
               // Use Next.js Link for other cases
-              <Link href={link.href} className={linkStyles}>
+              <Link href={link.href} className={linkStyles} onClick={closeNav}>
                 {link.name}
               </Link>
             )}

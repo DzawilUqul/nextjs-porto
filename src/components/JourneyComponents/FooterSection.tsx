@@ -13,7 +13,7 @@ const FooterSection: React.FC<FooterSectionProps> = ({text, images}) => {
       <p className="text-justify indent-10">
         {text}
       </p>
-      <div className='flex items-center justify-center gap-5'>
+      <div className='flex items-center justify-center gap-5 max-md:flex-col'>
         {images.map((image, index) => (
           <Image
             key={index}

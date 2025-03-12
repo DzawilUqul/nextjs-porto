@@ -9,9 +9,9 @@ const certificates = [
   { name: 'Dicoding', src: '/assets/certificates/Dicoding2.jpg' },
   { name: 'Dicoding', src: '/assets/certificates/Dicoding3.jpg' },
   { name: 'Dicoding', src: '/assets/certificates/Dicoding4.jpg' },
-  { name: 'Kaggle', src: '/assets/certificates/Kaggle1.png' },
-  { name: 'Kaggle', src: '/assets/certificates/Kaggle2.png' },
-  { name: 'Kaggle', src: '/assets/certificates/Kaggle3.png' },
+  { name: 'Kaggle', src: '/assets/certificates/kaggle1.png' },
+  { name: 'Kaggle', src: '/assets/certificates/kaggle2.png' },
+  { name: 'Kaggle', src: '/assets/certificates/kaggle3.png' },
 ];
 
 
